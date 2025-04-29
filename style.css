@@ -1,0 +1,33 @@
+
+.hero {
+    background-image: url('oran4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.hero {
+    animation: bgMove 5s ease-out forwards;
+} 
+
+
+@keyframes hi {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bgMove {
+    from {
+    background-position: center top;
+    }
+    to {
+    background-position: center bottom;
+    }
+    }
